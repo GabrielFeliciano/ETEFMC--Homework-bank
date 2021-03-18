@@ -6,6 +6,10 @@ import { ask, display, buildSentence } from './prompt.js';
 // *Main function*
 // ---------------
 
+/**
+ * @function
+ * Main Function
+ */
 function main () {
     const client = clients.loginClient(
         buildSentence('código'),
