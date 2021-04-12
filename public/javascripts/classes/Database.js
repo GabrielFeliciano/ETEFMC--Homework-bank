@@ -1,9 +1,12 @@
 import { Client } from './Client.js';
 
+/**
+ * @class
+ */
 export class Database {
 
     /**
-     * 
+     * @constructor
      * @param {Client[]} clients 
      */
     constructor (clients) {
@@ -13,6 +16,7 @@ export class Database {
     /**
      * Get a client account with "full permissions" 
      * (No difference from below except password is required)
+     * @method
      * @param {string|number} code 
      * @param {string} password 
      * @returns {Client}
@@ -26,6 +30,7 @@ export class Database {
     /**
      * Get a client accont with "limited permissions" 
      * (No difference from above except password isnt required)
+     * @method
      * @param {string|number} code 
      * @param {string} password 
      * @returns {Client}

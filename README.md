@@ -15,6 +15,6 @@ Note: The project uses *express* framework but only for routing
 
 1. Clone this repository
 2. Install Node js if you don't have
-3. Run **npm install** to install dependecies
-4. Run **npm run start** to start server
-5. Finally go to **localhost:3000** in your browser
+3. Run *npm install* to install dependecies
+4. Run *npm run start* to start server
+5. Finally go to *localhost:3000* in your browser

@@ -6,6 +6,10 @@ import { ask, display, buildSentence } from './prompt.js';
 // *Main function*
 // ---------------
 
+/**
+ * @function
+ * @returns {void}
+ */
 function main () {
     const client = clients.loginClient(
         buildSentence('código'),
@@ -34,6 +38,8 @@ function main () {
 
 /**
  * Loops the function main with a 3 second delay each run
+ * @function
+ * @returns {void}
  */
 function loopyMain () {
     try {
