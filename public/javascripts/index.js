@@ -9,6 +9,7 @@ import { ask, display, buildSentence } from './prompt.js';
 /**
  * @function
  * @returns {void}
+ * Main Function
  */
 function main () {
     const client = clients.loginClient(
